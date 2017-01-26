@@ -1,0 +1,6 @@
+Binding for:
+com.makeramen:roundedimageview:2.2.1
+
+Dependencies:
+
+roundedimageview-2.2.1.aar,    Path=C:\Users\pr\.gradle\caches\modules-2\files-2.1\com.makeramen\roundedimageview\2.2.1\2488468737fbb6a4bb8adf763ae6cd9688a6c6d7\roundedimageview-2.2.1.aar

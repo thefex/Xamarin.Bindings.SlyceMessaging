@@ -1,0 +1,4 @@
+<metadata>
+  <remove-node  path="/api/package[@name='it.slyce.messaging.message.messageItem']/class[@name='MessageRecyclerAdapter']/method[@name='onBindViewHolder' and count(parameter)=2 and parameter[1][@type='it.slyce.messaging.message.messageItem.MessageViewHolder'] and parameter[2][@type='int']]/parameter[1]"/>
+  <remove-node path="/api/package[@name='it.slyce.messaging.message.messageItem']/class[@name='MessageRecyclerAdapter']/method[@name='onCreateViewHolder' and count(parameter)=2 and parameter[1][@type='android.view.ViewGroup'] and parameter[2][@type='int']]/parameter[1]"/>
+</metadata>

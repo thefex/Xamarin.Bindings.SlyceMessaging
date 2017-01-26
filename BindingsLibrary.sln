@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSample", "Sample\TestSample.csproj", "{3644DF5D-26DA-4055-BF79-462D81718298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlyceMessaging.Bindings", "Sample\AndroidBindings\SlyceMessaging.Bindings\SlyceMessaging.Bindings.csproj", "{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding_Roundedimageview", "Sample\AndroidBindings\SlyceMessaging.Bindings\AndroidBindings\Binding_Roundedimageview\Binding_Roundedimageview.csproj", "{830C881A-A109-4FDD-A12E-516FB47186C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BindingsOfDependencies", "BindingsOfDependencies", "{8415B0AC-CCAC-44A5-86D7-68E05DFFAE38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding_Cam2_072", "Sample\AndroidBindings\SlyceMessaging.Bindings\AndroidBindings\Binding_Cam2_072\Binding_Cam2_072.csproj", "{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3644DF5D-26DA-4055-BF79-462D81718298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3644DF5D-26DA-4055-BF79-462D81718298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3644DF5D-26DA-4055-BF79-462D81718298}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3644DF5D-26DA-4055-BF79-462D81718298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3644DF5D-26DA-4055-BF79-462D81718298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3644DF5D-26DA-4055-BF79-462D81718298}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830C881A-A109-4FDD-A12E-516FB47186C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830C881A-A109-4FDD-A12E-516FB47186C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830C881A-A109-4FDD-A12E-516FB47186C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830C881A-A109-4FDD-A12E-516FB47186C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{830C881A-A109-4FDD-A12E-516FB47186C1} = {8415B0AC-CCAC-44A5-86D7-68E05DFFAE38}
+		{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75} = {8415B0AC-CCAC-44A5-86D7-68E05DFFAE38}
+	EndGlobalSection
+EndGlobal

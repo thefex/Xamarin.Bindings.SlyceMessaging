@@ -1,0 +1,6 @@
+Binding for:
+com.github.Slyce-Inc:SlyceMessaging:1.1.2
+
+Dependencies:
+
+SlyceMessaging-1.1.2.aar,    Path=C:\Users\pr\.gradle\caches\modules-2\files-2.1\com.github.Slyce-Inc\SlyceMessaging\1.1.2\dc4b05d4ca5c7a10e727901576207a60c19d5084\SlyceMessaging-1.1.2.aar
