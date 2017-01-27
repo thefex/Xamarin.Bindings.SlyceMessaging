@@ -3,15 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSample", "Sample\TestSample.csproj", "{3644DF5D-26DA-4055-BF79-462D81718298}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlyceMessaging.Bindings", "Sample\AndroidBindings\SlyceMessaging.Bindings\SlyceMessaging.Bindings.csproj", "{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding_Roundedimageview", "Sample\AndroidBindings\SlyceMessaging.Bindings\AndroidBindings\Binding_Roundedimageview\Binding_Roundedimageview.csproj", "{830C881A-A109-4FDD-A12E-516FB47186C1}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BindingsOfDependencies", "BindingsOfDependencies", "{8415B0AC-CCAC-44A5-86D7-68E05DFFAE38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding_Cam2_072", "Sample\AndroidBindings\SlyceMessaging.Bindings\AndroidBindings\Binding_Cam2_072\Binding_Cam2_072.csproj", "{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibraryBindings", "LibraryBindings", "{0685CE82-325D-4C2D-8775-CD53B4B42BA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mvx", "Mvx", "{7CBD27E0-A542-4CD7-AC35-B5D0B9CDDBB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Bindings.Cam2", "LibraryBindings\Binding_Cam2_072\Xamarin.Bindings.Cam2.csproj", "{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Bindings.RoundedImageView", "LibraryBindings\Binding_Roundedimageview\Xamarin.Bindings.RoundedImageView.csproj", "{830C881A-A109-4FDD-A12E-516FB47186C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Bindings.SlyceMessaging", "LibraryBindings\SlyceMessaging.Bindings\Xamarin.Bindings.SlyceMessaging.csproj", "{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.Bindings.SlyceMessaging", "Mvx\MvvmCross.Bindings.SlyceMessaging\MvvmCross.Bindings.SlyceMessaging.csproj", "{B80BB7D3-38D4-47C4-8E80-EB0CECA7E0F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{298030AC-2149-474E-9481-64923149E1FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSample", "TestProject\Sample\TestSample.csproj", "{3644DF5D-26DA-4055-BF79-462D81718298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSample.Core", "TestProject\TestSample.Core\TestSample.Core.csproj", "{AC72AE1F-B5E3-4CBC-B868-84124575D5F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,30 +29,43 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830C881A-A109-4FDD-A12E-516FB47186C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830C881A-A109-4FDD-A12E-516FB47186C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830C881A-A109-4FDD-A12E-516FB47186C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830C881A-A109-4FDD-A12E-516FB47186C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80BB7D3-38D4-47C4-8E80-EB0CECA7E0F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80BB7D3-38D4-47C4-8E80-EB0CECA7E0F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80BB7D3-38D4-47C4-8E80-EB0CECA7E0F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80BB7D3-38D4-47C4-8E80-EB0CECA7E0F8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3644DF5D-26DA-4055-BF79-462D81718298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3644DF5D-26DA-4055-BF79-462D81718298}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3644DF5D-26DA-4055-BF79-462D81718298}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{3644DF5D-26DA-4055-BF79-462D81718298}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3644DF5D-26DA-4055-BF79-462D81718298}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3644DF5D-26DA-4055-BF79-462D81718298}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{830C881A-A109-4FDD-A12E-516FB47186C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{830C881A-A109-4FDD-A12E-516FB47186C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{830C881A-A109-4FDD-A12E-516FB47186C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{830C881A-A109-4FDD-A12E-516FB47186C1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC72AE1F-B5E3-4CBC-B868-84124575D5F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC72AE1F-B5E3-4CBC-B868-84124575D5F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC72AE1F-B5E3-4CBC-B868-84124575D5F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC72AE1F-B5E3-4CBC-B868-84124575D5F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{830C881A-A109-4FDD-A12E-516FB47186C1} = {8415B0AC-CCAC-44A5-86D7-68E05DFFAE38}
+		{8415B0AC-CCAC-44A5-86D7-68E05DFFAE38} = {0685CE82-325D-4C2D-8775-CD53B4B42BA7}
 		{6F07A64E-C5B0-4D4B-8913-D9216B5C1A75} = {8415B0AC-CCAC-44A5-86D7-68E05DFFAE38}
+		{830C881A-A109-4FDD-A12E-516FB47186C1} = {8415B0AC-CCAC-44A5-86D7-68E05DFFAE38}
+		{EE7F33E8-DCFC-49AD-B272-58BD4FE587A0} = {0685CE82-325D-4C2D-8775-CD53B4B42BA7}
+		{B80BB7D3-38D4-47C4-8E80-EB0CECA7E0F8} = {7CBD27E0-A542-4CD7-AC35-B5D0B9CDDBB7}
+		{3644DF5D-26DA-4055-BF79-462D81718298} = {298030AC-2149-474E-9481-64923149E1FE}
+		{AC72AE1F-B5E3-4CBC-B868-84124575D5F5} = {298030AC-2149-474E-9481-64923149E1FE}
 	EndGlobalSection
 EndGlobal

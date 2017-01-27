@@ -1,0 +1,8 @@
+Binding for:
+com.commonsware.cwac:cam2:0.6.2
+
+Dependencies:
+
+cam2-0.6.2.aar,    Path=C:\Users\pr\.gradle\caches\modules-2\files-2.1\com.commonsware.cwac\cam2\0.6.2\8065aed0cc2f03d735f895bd89d480c8b1d98eb1\cam2-0.6.2.aar
+	fab-1.6.2.aar,    Path=C:\Users\pr\.gradle\caches\modules-2\files-2.1\com.github.clans\fab\1.6.2\645e2dd3e2a1886ac6658de45b653f051ae88b10\fab-1.6.2.aar
+	eventbus-2.4.0.jar,    Path=C:\Users\pr\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.0\ddd166d01b3158d1c00576d29f7ed15c030df719\eventbus-2.4.0.jar
