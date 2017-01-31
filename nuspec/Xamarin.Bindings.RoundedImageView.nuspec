@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Xamarin.Bindings.RoundedImageView</id>
+		<version>2.2.1</version>
+		<title>Xamarin.Bindings.RoundedImageView</title>
+		<authors>Xamarin Inc</authors>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+      RoundedImageView
+    </description>
+		<tags>xamarin android</tags>
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="Mono.Android.Export" targetFramework="MonoAndroid" />
+		</frameworkAssemblies>
+		<dependencies>
+      <group targetFramework="MonoAndroid403">
+        <dependency id="Square.OkHttp" version="2.4.0.3"/>
+        <dependency id="Square.OkIO" version="1.5.0.0"/>
+        <dependency id="Square.Picasso" version="2.5.2.1"/>
+      </group>
+    </dependencies>
+	</metadata>
+	<files>		
+		<file src="..\LibraryBindings\Binding_RoundedImageView\bin\Release\Xamarin.Bindings.RoundedImageView.dll" target="lib\MonoAndroid" />
+	</files>
+</package>
+
+
+
+
+
+
+
+
+
+
+
+
+

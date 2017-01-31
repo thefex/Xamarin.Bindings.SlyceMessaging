@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Xamarin.Bindings.Cwac.Cam2</id>
+		<version>0.6.2</version>
+		<title>Xamarin.Bindings.Cwac.Cam2</title>
+		<authors>Orginal Library - CommonsWare</authors>
+		<licenseUrl>https://github.com/commonsguy/cwac-cam2/blob/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/thefex/Xamarin.Bindings.SlyceMessaging</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+      Xamarin Bindings library for https://github.com/commonsguy/cwac-cam2/ 0.6.2
+    </description>
+		<tags>xamarin android</tags>
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="Mono.Android.Export" targetFramework="MonoAndroid" />
+		</frameworkAssemblies>
+		<dependencies>
+      <group targetFramework="monoandroid70">
+        <dependency id="FAB.XamarinAndroid" version="1.6.4.0" />
+      </group>
+    </dependencies>
+	</metadata>
+	<files>		
+		<file src="..\LibraryBindings\Binding_Cam2_072\bin\Release\Xamarin.Bindings.Cam2.dll" target="lib\MonoAndroid" />
+	</files>
+</package>
+
+
+
+
+
+
+
+
+
+
+
+
+

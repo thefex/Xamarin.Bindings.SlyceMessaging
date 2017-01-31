@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Xamarin.Bindings.SlyceMessaging</id>
+		<version>1.1.2-beta1</version>
+		<title>Xamarin.Bindings.SlyceMessaging</title>
+		<authors>Orginal Library - Slyce-Inc</authors>
+		<licenseUrl>https://github.com/Slyce-Inc/SlyceMessaging/blob/master/LICENSE</licenseUrl>
+		<projectUrl>https://github.com/thefex/Xamarin.Bindings.SlyceMessaging</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+      Xamarin Bindings library for https://github.com/Slyce-Inc/SlyceMessaging/
+    </description>
+		<tags>xamarin android</tags>
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="Mono.Android.Export" targetFramework="MonoAndroid" />
+		</frameworkAssemblies>
+		<dependencies>
+      <group targetFramework="monoandroid70">
+        <dependency id="FAB.XamarinAndroid" version="1.6.4.0"/>
+        <dependency id="Glide.Xamarin" version="3.7.0" />
+        <dependency id="Xamarin.Android.Support.Animated.Vector.Drawable" version="[25.1.0-beta2,)"  />
+        <dependency id="Xamarin.Android.Support.Compat" version="[25.1.0-beta2,)"   />
+        <dependency id="Xamarin.Android.Support.Core.UI" version="[25.1.0-beta2,)" />
+        <dependency id="Xamarin.Android.Support.Core.Utils" version="[25.1.0-beta2,)"   />
+        <dependency id="Xamarin.Android.Support.Design"  version="[25.1.0-beta2,)"   />
+        <dependency id="Xamarin.Android.Support.Fragment" version="[25.1.0-beta2,)"  />
+        <dependency id="Xamarin.Android.Support.Media.Compat" version="[25.1.0-beta2,)"   />
+        <dependency id="Xamarin.Android.Support.Percent" version="[25.1.0-beta2,)"  />
+        <dependency id="Xamarin.Android.Support.Transition" version="[25.1.0-beta2,)"  />
+        <dependency id="Xamarin.Android.Support.v13" version="[25.1.0-beta2,)"  />
+        <dependency id="Xamarin.Android.Support.v7.AppCompat" version="[25.1.0-beta2,)" />
+        <dependency id="Xamarin.Android.Support.v7.RecyclerView" version="[25.1.0-beta2,)"   />
+        <dependency id="Xamarin.Android.Support.Vector.Drawable" version="[25.1.0-beta2,)"  />
+        <dependency id="Xamarin.Bindings.CircleImageView" version="2.1.0"  />
+        <dependency id="Xamarin.Build.Download" version="0.4.1" />
+        <dependency id="Xamarin.Bindings.RoundedImageView" version="2.2.1"  />
+        <dependency id="Xamarin.Bindings.Cwac.Cam2" version="0.6.2" />
+      </group>
+    </dependencies>
+	</metadata>
+	<files>		
+		<file src="..\LibraryBindings\SlyceMessaging.Bindings\bin\Release\Xamarin.Bindings.SlyceMessaging.dll" target="lib\MonoAndroid" />
+	</files>
+</package>
+
+
+
+
+
+
+
+
+
+
+
+
+
