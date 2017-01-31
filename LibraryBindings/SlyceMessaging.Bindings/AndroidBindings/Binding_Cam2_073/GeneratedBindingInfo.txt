@@ -1,0 +1,6 @@
+Binding for:
+com.commonsware.cwac:cam2:0.7.3
+
+Dependencies:
+
+cam2-0.7.3.aar,    Path=C:\Users\pr\.gradle\caches\modules-2\files-2.1\com.commonsware.cwac\cam2\0.7.3\d2ddc9ed724d86edece8d19a38cad9efebdd8a11\cam2-0.7.3.aar

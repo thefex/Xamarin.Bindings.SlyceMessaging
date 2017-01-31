@@ -43,7 +43,7 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="roundedimageview-2.2.1.aar" />
+    <LibraryProjectZip Include="roundedimageview-2.3.0.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />

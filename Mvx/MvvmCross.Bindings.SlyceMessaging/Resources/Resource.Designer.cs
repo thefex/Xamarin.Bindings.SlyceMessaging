@@ -2535,8 +2535,8 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			// aapt resource value: 0x7f070013
 			public static int MvxBindingTagUnique = 2131165203;
 			
-			// aapt resource value: 0x7f0700b3
-			public static int action0 = 2131165363;
+			// aapt resource value: 0x7f0700b4
+			public static int action0 = 2131165364;
 			
 			// aapt resource value: 0x7f07006d
 			public static int action_bar = 2131165293;
@@ -2562,8 +2562,8 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			// aapt resource value: 0x7f07006e
 			public static int action_context_bar = 2131165294;
 			
-			// aapt resource value: 0x7f0700b7
-			public static int action_divider = 2131165367;
+			// aapt resource value: 0x7f0700b8
+			public static int action_divider = 2131165368;
 			
 			// aapt resource value: 0x7f070003
 			public static int action_menu_divider = 2131165187;
@@ -2607,8 +2607,8 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			// aapt resource value: 0x7f070056
 			public static int buttonPanel = 2131165270;
 			
-			// aapt resource value: 0x7f0700b4
-			public static int cancel_action = 2131165364;
+			// aapt resource value: 0x7f0700b5
+			public static int cancel_action = 2131165365;
 			
 			// aapt resource value: 0x7f070036
 			public static int center = 2131165238;
@@ -2625,8 +2625,8 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			// aapt resource value: 0x7f070083
 			public static int chrono = 2131165315;
 			
-			// aapt resource value: 0x7f0700ba
-			public static int chronometer = 2131165370;
+			// aapt resource value: 0x7f0700bb
+			public static int chronometer = 2131165371;
 			
 			// aapt resource value: 0x7f070047
 			public static int clamp = 2131165255;
@@ -2649,8 +2649,8 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			// aapt resource value: 0x7f070061
 			public static int customPanel = 2131165281;
 			
-			// aapt resource value: 0x7f0700c1
-			public static int cwac_cam2_ok = 2131165377;
+			// aapt resource value: 0x7f0700c2
+			public static int cwac_cam2_ok = 2131165378;
 			
 			// aapt resource value: 0x7f07007f
 			public static int cwac_cam2_picture = 2131165311;
@@ -2661,8 +2661,8 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			// aapt resource value: 0x7f07007e
 			public static int cwac_cam2_progress = 2131165310;
 			
-			// aapt resource value: 0x7f0700c0
-			public static int cwac_cam2_retry = 2131165376;
+			// aapt resource value: 0x7f0700c1
+			public static int cwac_cam2_retry = 2131165377;
 			
 			// aapt resource value: 0x7f070080
 			public static int cwac_cam2_settings = 2131165312;
@@ -2706,8 +2706,8 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			// aapt resource value: 0x7f070027
 			public static int end = 2131165223;
 			
-			// aapt resource value: 0x7f0700bf
-			public static int end_padder = 2131165375;
+			// aapt resource value: 0x7f0700c0
+			public static int end_padder = 2131165376;
 			
 			// aapt resource value: 0x7f070030
 			public static int enterAlways = 2131165232;
@@ -2757,8 +2757,8 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			// aapt resource value: 0x7f07007c
 			public static int image_view_large = 2131165308;
 			
-			// aapt resource value: 0x7f0700be
-			public static int info = 2131165374;
+			// aapt resource value: 0x7f0700bf
+			public static int info = 2131165375;
 			
 			// aapt resource value: 0x7f070000
 			public static int item_touch_helper_previous_elevation = 2131165184;
@@ -2787,11 +2787,11 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			// aapt resource value: 0x7f07003a
 			public static int left = 2131165242;
 			
-			// aapt resource value: 0x7f0700b8
-			public static int line1 = 2131165368;
+			// aapt resource value: 0x7f0700b9
+			public static int line1 = 2131165369;
 			
-			// aapt resource value: 0x7f0700bc
-			public static int line3 = 2131165372;
+			// aapt resource value: 0x7f0700bd
+			public static int line3 = 2131165373;
 			
 			// aapt resource value: 0x7f070015
 			public static int listMode = 2131165205;
@@ -2799,101 +2799,101 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			// aapt resource value: 0x7f070053
 			public static int list_item = 2131165267;
 			
-			// aapt resource value: 0x7f0700b2
-			public static int loading_bar = 2131165362;
+			// aapt resource value: 0x7f0700b3
+			public static int loading_bar = 2131165363;
 			
 			// aapt resource value: 0x7f07004a
 			public static int marquee = 2131165258;
 			
-			// aapt resource value: 0x7f0700b6
-			public static int media_actions = 2131165366;
-			
-			// aapt resource value: 0x7f0700a3
-			public static int message_general_options_options_linear_layout = 2131165347;
-			
-			// aapt resource value: 0x7f0700a2
-			public static int message_general_options_text_view = 2131165346;
+			// aapt resource value: 0x7f0700b7
+			public static int media_actions = 2131165367;
 			
 			// aapt resource value: 0x7f0700a4
-			public static int message_general_text_text_view = 2131165348;
+			public static int message_general_options_options_linear_layout = 2131165348;
 			
-			// aapt resource value: 0x7f070097
-			public static int message_scout_media_image_view_avatar = 2131165335;
-			
-			// aapt resource value: 0x7f070095
-			public static int message_scout_media_image_view_avatar_group = 2131165333;
-			
-			// aapt resource value: 0x7f070099
-			public static int message_scout_media_picasso_rounded_image_view_media = 2131165337;
-			
-			// aapt resource value: 0x7f070096
-			public static int message_scout_media_text_view_initials = 2131165334;
-			
-			// aapt resource value: 0x7f07009a
-			public static int message_scout_media_text_view_timestamp = 2131165338;
-			
-			// aapt resource value: 0x7f070098
-			public static int message_scout_media_view_group_media = 2131165336;
-			
-			// aapt resource value: 0x7f07009d
-			public static int message_scout_text_image_view_avatar = 2131165341;
-			
-			// aapt resource value: 0x7f07009b
-			public static int message_scout_text_image_view_avatar_group = 2131165339;
-			
-			// aapt resource value: 0x7f07009e
-			public static int message_scout_text_image_view_carrot = 2131165342;
-			
-			// aapt resource value: 0x7f07009c
-			public static int message_scout_text_text_view_initials = 2131165340;
-			
-			// aapt resource value: 0x7f0700a0
-			public static int message_scout_text_text_view_text = 2131165344;
-			
-			// aapt resource value: 0x7f0700a1
-			public static int message_scout_text_text_view_timestamp = 2131165345;
-			
-			// aapt resource value: 0x7f07009f
-			public static int message_scout_text_view_group_bubble = 2131165343;
-			
-			// aapt resource value: 0x7f0700a7
-			public static int message_user_media_image_view_avatar = 2131165351;
-			
-			// aapt resource value: 0x7f0700a9
-			public static int message_user_media_picasso_rounded_image_view_media = 2131165353;
-			
-			// aapt resource value: 0x7f0700a6
-			public static int message_user_media_text_view_initials = 2131165350;
-			
-			// aapt resource value: 0x7f0700aa
-			public static int message_user_media_text_view_timestamp = 2131165354;
+			// aapt resource value: 0x7f0700a3
+			public static int message_general_options_text_view = 2131165347;
 			
 			// aapt resource value: 0x7f0700a5
-			public static int message_user_media_view_group_avatar = 2131165349;
+			public static int message_general_text_text_view = 2131165349;
+			
+			// aapt resource value: 0x7f070098
+			public static int message_scout_media_image_view_avatar = 2131165336;
+			
+			// aapt resource value: 0x7f070096
+			public static int message_scout_media_image_view_avatar_group = 2131165334;
+			
+			// aapt resource value: 0x7f07009a
+			public static int message_scout_media_picasso_rounded_image_view_media = 2131165338;
+			
+			// aapt resource value: 0x7f070097
+			public static int message_scout_media_text_view_initials = 2131165335;
+			
+			// aapt resource value: 0x7f07009b
+			public static int message_scout_media_text_view_timestamp = 2131165339;
+			
+			// aapt resource value: 0x7f070099
+			public static int message_scout_media_view_group_media = 2131165337;
+			
+			// aapt resource value: 0x7f07009e
+			public static int message_scout_text_image_view_avatar = 2131165342;
+			
+			// aapt resource value: 0x7f07009c
+			public static int message_scout_text_image_view_avatar_group = 2131165340;
+			
+			// aapt resource value: 0x7f07009f
+			public static int message_scout_text_image_view_carrot = 2131165343;
+			
+			// aapt resource value: 0x7f07009d
+			public static int message_scout_text_text_view_initials = 2131165341;
+			
+			// aapt resource value: 0x7f0700a1
+			public static int message_scout_text_text_view_text = 2131165345;
+			
+			// aapt resource value: 0x7f0700a2
+			public static int message_scout_text_text_view_timestamp = 2131165346;
+			
+			// aapt resource value: 0x7f0700a0
+			public static int message_scout_text_view_group_bubble = 2131165344;
 			
 			// aapt resource value: 0x7f0700a8
-			public static int message_user_media_view_group_bubble = 2131165352;
+			public static int message_user_media_image_view_avatar = 2131165352;
 			
-			// aapt resource value: 0x7f0700ad
-			public static int message_user_text_image_view_avatar = 2131165357;
+			// aapt resource value: 0x7f0700aa
+			public static int message_user_media_picasso_rounded_image_view_media = 2131165354;
 			
-			// aapt resource value: 0x7f0700ae
-			public static int message_user_text_image_view_carrot = 2131165358;
-			
-			// aapt resource value: 0x7f0700ac
-			public static int message_user_text_text_view_initials = 2131165356;
-			
-			// aapt resource value: 0x7f0700b0
-			public static int message_user_text_text_view_text = 2131165360;
-			
-			// aapt resource value: 0x7f0700b1
-			public static int message_user_text_text_view_timestamp = 2131165361;
+			// aapt resource value: 0x7f0700a7
+			public static int message_user_media_text_view_initials = 2131165351;
 			
 			// aapt resource value: 0x7f0700ab
-			public static int message_user_text_view_group_avatar = 2131165355;
+			public static int message_user_media_text_view_timestamp = 2131165355;
+			
+			// aapt resource value: 0x7f0700a6
+			public static int message_user_media_view_group_avatar = 2131165350;
+			
+			// aapt resource value: 0x7f0700a9
+			public static int message_user_media_view_group_bubble = 2131165353;
+			
+			// aapt resource value: 0x7f0700ae
+			public static int message_user_text_image_view_avatar = 2131165358;
 			
 			// aapt resource value: 0x7f0700af
-			public static int message_user_text_view_group_bubble = 2131165359;
+			public static int message_user_text_image_view_carrot = 2131165359;
+			
+			// aapt resource value: 0x7f0700ad
+			public static int message_user_text_text_view_initials = 2131165357;
+			
+			// aapt resource value: 0x7f0700b1
+			public static int message_user_text_text_view_text = 2131165361;
+			
+			// aapt resource value: 0x7f0700b2
+			public static int message_user_text_text_view_timestamp = 2131165362;
+			
+			// aapt resource value: 0x7f0700ac
+			public static int message_user_text_view_group_avatar = 2131165356;
+			
+			// aapt resource value: 0x7f0700b0
+			public static int message_user_text_view_group_bubble = 2131165360;
 			
 			// aapt resource value: 0x7f070028
 			public static int middle = 2131165224;
@@ -3009,14 +3009,17 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			// aapt resource value: 0x7f07001d
 			public static int showTitle = 2131165213;
 			
-			// aapt resource value: 0x7f070093
-			public static int slyce_messaging_edit_text_entry_field = 2131165331;
-			
 			// aapt resource value: 0x7f070094
-			public static int slyce_messaging_image_view_send = 2131165332;
+			public static int slyce_messaging_edit_text_entry_field = 2131165332;
+			
+			// aapt resource value: 0x7f070095
+			public static int slyce_messaging_image_view_send = 2131165333;
+			
+			// aapt resource value: 0x7f070093
+			public static int slyce_messaging_image_view_snap = 2131165331;
 			
 			// aapt resource value: 0x7f070092
-			public static int slyce_messaging_image_view_snap = 2131165330;
+			public static int slyce_messaging_leftInputToolbar = 2131165330;
 			
 			// aapt resource value: 0x7f070090
 			public static int slyce_messaging_recycler_view = 2131165328;
@@ -3054,8 +3057,8 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			// aapt resource value: 0x7f07003c
 			public static int start = 2131165244;
 			
-			// aapt resource value: 0x7f0700b5
-			public static int status_bar_latest_event_content = 2131165365;
+			// aapt resource value: 0x7f0700b6
+			public static int status_bar_latest_event_content = 2131165366;
 			
 			// aapt resource value: 0x7f070067
 			public static int submenuarrow = 2131165287;
@@ -3066,11 +3069,11 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			// aapt resource value: 0x7f070017
 			public static int tabMode = 2131165207;
 			
-			// aapt resource value: 0x7f0700bd
-			public static int text = 2131165373;
+			// aapt resource value: 0x7f0700be
+			public static int text = 2131165374;
 			
-			// aapt resource value: 0x7f0700bb
-			public static int text2 = 2131165371;
+			// aapt resource value: 0x7f0700bc
+			public static int text2 = 2131165372;
 			
 			// aapt resource value: 0x7f07005f
 			public static int textSpacerNoButtons = 2131165279;
@@ -3078,8 +3081,8 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			// aapt resource value: 0x7f07008e
 			public static int text_input_password_toggle = 2131165326;
 			
-			// aapt resource value: 0x7f0700b9
-			public static int time = 2131165369;
+			// aapt resource value: 0x7f0700ba
+			public static int time = 2131165370;
 			
 			// aapt resource value: 0x7f070055
 			public static int title = 2131165269;
@@ -3291,61 +3294,64 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			public static int fragment_slyce_messaging = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public static int item_message_external_media = 2130968620;
+			public static int input_toolbar_takephoto = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public static int item_message_external_text = 2130968621;
+			public static int item_message_external_media = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public static int item_message_general_options = 2130968622;
+			public static int item_message_external_text = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public static int item_message_general_text = 2130968623;
+			public static int item_message_general_options = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public static int item_message_user_media = 2130968624;
+			public static int item_message_general_text = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public static int item_message_user_text = 2130968625;
+			public static int item_message_user_media = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public static int item_spinner = 2130968626;
+			public static int item_message_user_text = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public static int notification_media_action = 2130968627;
+			public static int item_spinner = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public static int notification_media_cancel_action = 2130968628;
+			public static int notification_media_action = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public static int notification_template_big_media = 2130968629;
+			public static int notification_media_cancel_action = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public static int notification_template_big_media_narrow = 2130968630;
+			public static int notification_template_big_media = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public static int notification_template_lines = 2130968631;
+			public static int notification_template_big_media_narrow = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public static int notification_template_media = 2130968632;
+			public static int notification_template_lines = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public static int notification_template_part_chronometer = 2130968633;
+			public static int notification_template_media = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public static int notification_template_part_time = 2130968634;
+			public static int notification_template_part_chronometer = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public static int select_dialog_item_material = 2130968635;
+			public static int notification_template_part_time = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public static int select_dialog_multichoice_material = 2130968636;
+			public static int select_dialog_item_material = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public static int select_dialog_singlechoice_material = 2130968637;
+			public static int select_dialog_multichoice_material = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public static int support_simple_spinner_dropdown_item = 2130968638;
+			public static int select_dialog_singlechoice_material = 2130968638;
+			
+			// aapt resource value: 0x7f04003f
+			public static int support_simple_spinner_dropdown_item = 2130968639;
 			
 			static Layout()
 			{
@@ -3401,11 +3407,11 @@ namespace MvvmCross.Bindings.SlyceMessaging
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f080033
-			public static int ApplicationName = 2131230771;
+			// aapt resource value: 0x7f08003a
+			public static int ApplicationName = 2131230778;
 			
-			// aapt resource value: 0x7f080032
-			public static int Hello = 2131230770;
+			// aapt resource value: 0x7f080039
+			public static int Hello = 2131230777;
 			
 			// aapt resource value: 0x7f080000
 			public static int abc_action_bar_home_description = 2131230720;
@@ -3512,44 +3518,65 @@ namespace MvvmCross.Bindings.SlyceMessaging
 			// aapt resource value: 0x7f080023
 			public static int character_counter_pattern = 2131230755;
 			
-			// aapt resource value: 0x7f080030
-			public static int cwac_cam2_ok = 2131230768;
+			// aapt resource value: 0x7f080037
+			public static int cwac_cam2_ok = 2131230775;
 			
-			// aapt resource value: 0x7f080031
-			public static int cwac_cam2_retry = 2131230769;
-			
-			// aapt resource value: 0x7f080026
-			public static int define_roundedimageview = 2131230758;
-			
-			// aapt resource value: 0x7f080027
-			public static int library_roundedimageview_author = 2131230759;
-			
-			// aapt resource value: 0x7f080028
-			public static int library_roundedimageview_authorWebsite = 2131230760;
-			
-			// aapt resource value: 0x7f080029
-			public static int library_roundedimageview_isOpenSource = 2131230761;
-			
-			// aapt resource value: 0x7f08002a
-			public static int library_roundedimageview_libraryDescription = 2131230762;
-			
-			// aapt resource value: 0x7f08002b
-			public static int library_roundedimageview_libraryName = 2131230763;
-			
-			// aapt resource value: 0x7f08002c
-			public static int library_roundedimageview_libraryVersion = 2131230764;
-			
-			// aapt resource value: 0x7f08002d
-			public static int library_roundedimageview_libraryWebsite = 2131230765;
-			
-			// aapt resource value: 0x7f08002e
-			public static int library_roundedimageview_licenseId = 2131230766;
-			
-			// aapt resource value: 0x7f08002f
-			public static int library_roundedimageview_repositoryLink = 2131230767;
+			// aapt resource value: 0x7f080038
+			public static int cwac_cam2_retry = 2131230776;
 			
 			// aapt resource value: 0x7f080025
-			public static int scout_entry_hint = 2131230757;
+			public static int date_a_minute_ago = 2131230757;
+			
+			// aapt resource value: 0x7f080026
+			public static int date_minutes_ago = 2131230758;
+			
+			// aapt resource value: 0x7f080027
+			public static int date_now = 2131230759;
+			
+			// aapt resource value: 0x7f080028
+			public static int date_yesterday = 2131230760;
+			
+			// aapt resource value: 0x7f08002d
+			public static int define_roundedimageview = 2131230765;
+			
+			// aapt resource value: 0x7f08002e
+			public static int library_roundedimageview_author = 2131230766;
+			
+			// aapt resource value: 0x7f08002f
+			public static int library_roundedimageview_authorWebsite = 2131230767;
+			
+			// aapt resource value: 0x7f080030
+			public static int library_roundedimageview_isOpenSource = 2131230768;
+			
+			// aapt resource value: 0x7f080031
+			public static int library_roundedimageview_libraryDescription = 2131230769;
+			
+			// aapt resource value: 0x7f080032
+			public static int library_roundedimageview_libraryName = 2131230770;
+			
+			// aapt resource value: 0x7f080033
+			public static int library_roundedimageview_libraryVersion = 2131230771;
+			
+			// aapt resource value: 0x7f080034
+			public static int library_roundedimageview_libraryWebsite = 2131230772;
+			
+			// aapt resource value: 0x7f080035
+			public static int library_roundedimageview_licenseId = 2131230773;
+			
+			// aapt resource value: 0x7f080036
+			public static int library_roundedimageview_repositoryLink = 2131230774;
+			
+			// aapt resource value: 0x7f080029
+			public static int message_new = 2131230761;
+			
+			// aapt resource value: 0x7f08002a
+			public static int message_text_copied = 2131230762;
+			
+			// aapt resource value: 0x7f08002b
+			public static int message_view = 2131230763;
+			
+			// aapt resource value: 0x7f08002c
+			public static int scout_entry_hint = 2131230764;
 			
 			// aapt resource value: 0x7f080013
 			public static int search_menu_title = 2131230739;

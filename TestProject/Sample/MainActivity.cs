@@ -33,7 +33,7 @@ namespace Sample
             SetContentView (Resource.Layout.Main);
 
             var slyceMessagingFragment = (MvxSlyceMessagingFragment)FragmentManager.FindFragmentById(Resource.Id.fragment_for_slyce_messaging);
-            
+            slyceMessagingFragment.SetDefaultUserInitials("PR");
             
             var bindingSet = this.CreateBindingSet<MainActivity, ChatViewModel>();
 

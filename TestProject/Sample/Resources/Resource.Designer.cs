@@ -1018,6 +1018,7 @@ namespace Sample
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.Id.slyce_messaging_edit_text_entry_field = global::Sample.Resource.Id.slyce_messaging_edit_text_entry_field;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.Id.slyce_messaging_image_view_send = global::Sample.Resource.Id.slyce_messaging_image_view_send;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.Id.slyce_messaging_image_view_snap = global::Sample.Resource.Id.slyce_messaging_image_view_snap;
+			global::MvvmCross.Bindings.SlyceMessaging.Resource.Id.slyce_messaging_leftInputToolbar = global::Sample.Resource.Id.slyce_messaging_leftInputToolbar;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.Id.slyce_messaging_recycler_view = global::Sample.Resource.Id.slyce_messaging_recycler_view;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.Id.slyce_messaging_view_group_entry_field = global::Sample.Resource.Id.slyce_messaging_view_group_entry_field;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.Id.slyce_messaging_view_horiz_divider = global::Sample.Resource.Id.slyce_messaging_view_horiz_divider;
@@ -1100,6 +1101,7 @@ namespace Sample
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.Layout.design_navigation_menu_item = global::Sample.Resource.Layout.design_navigation_menu_item;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.Layout.design_text_input_password_icon = global::Sample.Resource.Layout.design_text_input_password_icon;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.Layout.fragment_slyce_messaging = global::Sample.Resource.Layout.fragment_slyce_messaging;
+			global::MvvmCross.Bindings.SlyceMessaging.Resource.Layout.input_toolbar_takephoto = global::Sample.Resource.Layout.input_toolbar_takephoto;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.Layout.item_message_external_media = global::Sample.Resource.Layout.item_message_external_media;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.Layout.item_message_external_text = global::Sample.Resource.Layout.item_message_external_text;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.Layout.item_message_general_options = global::Sample.Resource.Layout.item_message_general_options;
@@ -1163,6 +1165,10 @@ namespace Sample
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.character_counter_pattern = global::Sample.Resource.String.character_counter_pattern;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.cwac_cam2_ok = global::Sample.Resource.String.cwac_cam2_ok;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.cwac_cam2_retry = global::Sample.Resource.String.cwac_cam2_retry;
+			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.date_a_minute_ago = global::Sample.Resource.String.date_a_minute_ago;
+			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.date_minutes_ago = global::Sample.Resource.String.date_minutes_ago;
+			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.date_now = global::Sample.Resource.String.date_now;
+			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.date_yesterday = global::Sample.Resource.String.date_yesterday;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.define_roundedimageview = global::Sample.Resource.String.define_roundedimageview;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.library_roundedimageview_author = global::Sample.Resource.String.library_roundedimageview_author;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.library_roundedimageview_authorWebsite = global::Sample.Resource.String.library_roundedimageview_authorWebsite;
@@ -1173,6 +1179,9 @@ namespace Sample
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.library_roundedimageview_libraryWebsite = global::Sample.Resource.String.library_roundedimageview_libraryWebsite;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.library_roundedimageview_licenseId = global::Sample.Resource.String.library_roundedimageview_licenseId;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.library_roundedimageview_repositoryLink = global::Sample.Resource.String.library_roundedimageview_repositoryLink;
+			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.message_new = global::Sample.Resource.String.message_new;
+			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.message_text_copied = global::Sample.Resource.String.message_text_copied;
+			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.message_view = global::Sample.Resource.String.message_view;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.scout_entry_hint = global::Sample.Resource.String.scout_entry_hint;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.search_menu_title = global::Sample.Resource.String.search_menu_title;
 			global::MvvmCross.Bindings.SlyceMessaging.Resource.String.status_bar_notification_info_overflow = global::Sample.Resource.String.status_bar_notification_info_overflow;
@@ -4721,8 +4730,8 @@ namespace Sample
 			// aapt resource value: 0x7f070015
 			public const int MvxBindingTagUnique = 2131165205;
 			
-			// aapt resource value: 0x7f0700b6
-			public const int action0 = 2131165366;
+			// aapt resource value: 0x7f0700b7
+			public const int action0 = 2131165367;
 			
 			// aapt resource value: 0x7f07006f
 			public const int action_bar = 2131165295;
@@ -4748,8 +4757,8 @@ namespace Sample
 			// aapt resource value: 0x7f070070
 			public const int action_context_bar = 2131165296;
 			
-			// aapt resource value: 0x7f0700ba
-			public const int action_divider = 2131165370;
+			// aapt resource value: 0x7f0700bb
+			public const int action_divider = 2131165371;
 			
 			// aapt resource value: 0x7f070003
 			public const int action_menu_divider = 2131165187;
@@ -4793,8 +4802,8 @@ namespace Sample
 			// aapt resource value: 0x7f070058
 			public const int buttonPanel = 2131165272;
 			
-			// aapt resource value: 0x7f0700b7
-			public const int cancel_action = 2131165367;
+			// aapt resource value: 0x7f0700b8
+			public const int cancel_action = 2131165368;
 			
 			// aapt resource value: 0x7f070038
 			public const int center = 2131165240;
@@ -4811,8 +4820,8 @@ namespace Sample
 			// aapt resource value: 0x7f070085
 			public const int chrono = 2131165317;
 			
-			// aapt resource value: 0x7f0700bd
-			public const int chronometer = 2131165373;
+			// aapt resource value: 0x7f0700be
+			public const int chronometer = 2131165374;
 			
 			// aapt resource value: 0x7f070049
 			public const int clamp = 2131165257;
@@ -4835,8 +4844,8 @@ namespace Sample
 			// aapt resource value: 0x7f070063
 			public const int customPanel = 2131165283;
 			
-			// aapt resource value: 0x7f0700c4
-			public const int cwac_cam2_ok = 2131165380;
+			// aapt resource value: 0x7f0700c5
+			public const int cwac_cam2_ok = 2131165381;
 			
 			// aapt resource value: 0x7f070081
 			public const int cwac_cam2_picture = 2131165313;
@@ -4847,8 +4856,8 @@ namespace Sample
 			// aapt resource value: 0x7f070080
 			public const int cwac_cam2_progress = 2131165312;
 			
-			// aapt resource value: 0x7f0700c3
-			public const int cwac_cam2_retry = 2131165379;
+			// aapt resource value: 0x7f0700c4
+			public const int cwac_cam2_retry = 2131165380;
 			
 			// aapt resource value: 0x7f070082
 			public const int cwac_cam2_settings = 2131165314;
@@ -4892,8 +4901,8 @@ namespace Sample
 			// aapt resource value: 0x7f070029
 			public const int end = 2131165225;
 			
-			// aapt resource value: 0x7f0700c2
-			public const int end_padder = 2131165378;
+			// aapt resource value: 0x7f0700c3
+			public const int end_padder = 2131165379;
 			
 			// aapt resource value: 0x7f070032
 			public const int enterAlways = 2131165234;
@@ -4925,8 +4934,8 @@ namespace Sample
 			// aapt resource value: 0x7f070047
 			public const int @fixed = 2131165255;
 			
-			// aapt resource value: 0x7f0700b5
-			public const int fragment_for_slyce_messaging = 2131165365;
+			// aapt resource value: 0x7f0700b6
+			public const int fragment_for_slyce_messaging = 2131165366;
 			
 			// aapt resource value: 0x7f070005
 			public const int home = 2131165189;
@@ -4946,8 +4955,8 @@ namespace Sample
 			// aapt resource value: 0x7f07007e
 			public const int image_view_large = 2131165310;
 			
-			// aapt resource value: 0x7f0700c1
-			public const int info = 2131165377;
+			// aapt resource value: 0x7f0700c2
+			public const int info = 2131165378;
 			
 			// aapt resource value: 0x7f070000
 			public const int item_touch_helper_previous_elevation = 2131165184;
@@ -4976,11 +4985,11 @@ namespace Sample
 			// aapt resource value: 0x7f07003c
 			public const int left = 2131165244;
 			
-			// aapt resource value: 0x7f0700bb
-			public const int line1 = 2131165371;
+			// aapt resource value: 0x7f0700bc
+			public const int line1 = 2131165372;
 			
-			// aapt resource value: 0x7f0700bf
-			public const int line3 = 2131165375;
+			// aapt resource value: 0x7f0700c0
+			public const int line3 = 2131165376;
 			
 			// aapt resource value: 0x7f070017
 			public const int listMode = 2131165207;
@@ -4988,101 +4997,101 @@ namespace Sample
 			// aapt resource value: 0x7f070055
 			public const int list_item = 2131165269;
 			
-			// aapt resource value: 0x7f0700b4
-			public const int loading_bar = 2131165364;
+			// aapt resource value: 0x7f0700b5
+			public const int loading_bar = 2131165365;
 			
 			// aapt resource value: 0x7f07004c
 			public const int marquee = 2131165260;
 			
-			// aapt resource value: 0x7f0700b9
-			public const int media_actions = 2131165369;
-			
-			// aapt resource value: 0x7f0700a5
-			public const int message_general_options_options_linear_layout = 2131165349;
-			
-			// aapt resource value: 0x7f0700a4
-			public const int message_general_options_text_view = 2131165348;
+			// aapt resource value: 0x7f0700ba
+			public const int media_actions = 2131165370;
 			
 			// aapt resource value: 0x7f0700a6
-			public const int message_general_text_text_view = 2131165350;
+			public const int message_general_options_options_linear_layout = 2131165350;
 			
-			// aapt resource value: 0x7f070099
-			public const int message_scout_media_image_view_avatar = 2131165337;
-			
-			// aapt resource value: 0x7f070097
-			public const int message_scout_media_image_view_avatar_group = 2131165335;
-			
-			// aapt resource value: 0x7f07009b
-			public const int message_scout_media_picasso_rounded_image_view_media = 2131165339;
-			
-			// aapt resource value: 0x7f070098
-			public const int message_scout_media_text_view_initials = 2131165336;
-			
-			// aapt resource value: 0x7f07009c
-			public const int message_scout_media_text_view_timestamp = 2131165340;
-			
-			// aapt resource value: 0x7f07009a
-			public const int message_scout_media_view_group_media = 2131165338;
-			
-			// aapt resource value: 0x7f07009f
-			public const int message_scout_text_image_view_avatar = 2131165343;
-			
-			// aapt resource value: 0x7f07009d
-			public const int message_scout_text_image_view_avatar_group = 2131165341;
-			
-			// aapt resource value: 0x7f0700a0
-			public const int message_scout_text_image_view_carrot = 2131165344;
-			
-			// aapt resource value: 0x7f07009e
-			public const int message_scout_text_text_view_initials = 2131165342;
-			
-			// aapt resource value: 0x7f0700a2
-			public const int message_scout_text_text_view_text = 2131165346;
-			
-			// aapt resource value: 0x7f0700a3
-			public const int message_scout_text_text_view_timestamp = 2131165347;
-			
-			// aapt resource value: 0x7f0700a1
-			public const int message_scout_text_view_group_bubble = 2131165345;
-			
-			// aapt resource value: 0x7f0700a9
-			public const int message_user_media_image_view_avatar = 2131165353;
-			
-			// aapt resource value: 0x7f0700ab
-			public const int message_user_media_picasso_rounded_image_view_media = 2131165355;
-			
-			// aapt resource value: 0x7f0700a8
-			public const int message_user_media_text_view_initials = 2131165352;
-			
-			// aapt resource value: 0x7f0700ac
-			public const int message_user_media_text_view_timestamp = 2131165356;
+			// aapt resource value: 0x7f0700a5
+			public const int message_general_options_text_view = 2131165349;
 			
 			// aapt resource value: 0x7f0700a7
-			public const int message_user_media_view_group_avatar = 2131165351;
+			public const int message_general_text_text_view = 2131165351;
+			
+			// aapt resource value: 0x7f07009a
+			public const int message_scout_media_image_view_avatar = 2131165338;
+			
+			// aapt resource value: 0x7f070098
+			public const int message_scout_media_image_view_avatar_group = 2131165336;
+			
+			// aapt resource value: 0x7f07009c
+			public const int message_scout_media_picasso_rounded_image_view_media = 2131165340;
+			
+			// aapt resource value: 0x7f070099
+			public const int message_scout_media_text_view_initials = 2131165337;
+			
+			// aapt resource value: 0x7f07009d
+			public const int message_scout_media_text_view_timestamp = 2131165341;
+			
+			// aapt resource value: 0x7f07009b
+			public const int message_scout_media_view_group_media = 2131165339;
+			
+			// aapt resource value: 0x7f0700a0
+			public const int message_scout_text_image_view_avatar = 2131165344;
+			
+			// aapt resource value: 0x7f07009e
+			public const int message_scout_text_image_view_avatar_group = 2131165342;
+			
+			// aapt resource value: 0x7f0700a1
+			public const int message_scout_text_image_view_carrot = 2131165345;
+			
+			// aapt resource value: 0x7f07009f
+			public const int message_scout_text_text_view_initials = 2131165343;
+			
+			// aapt resource value: 0x7f0700a3
+			public const int message_scout_text_text_view_text = 2131165347;
+			
+			// aapt resource value: 0x7f0700a4
+			public const int message_scout_text_text_view_timestamp = 2131165348;
+			
+			// aapt resource value: 0x7f0700a2
+			public const int message_scout_text_view_group_bubble = 2131165346;
 			
 			// aapt resource value: 0x7f0700aa
-			public const int message_user_media_view_group_bubble = 2131165354;
+			public const int message_user_media_image_view_avatar = 2131165354;
 			
-			// aapt resource value: 0x7f0700af
-			public const int message_user_text_image_view_avatar = 2131165359;
+			// aapt resource value: 0x7f0700ac
+			public const int message_user_media_picasso_rounded_image_view_media = 2131165356;
 			
-			// aapt resource value: 0x7f0700b0
-			public const int message_user_text_image_view_carrot = 2131165360;
-			
-			// aapt resource value: 0x7f0700ae
-			public const int message_user_text_text_view_initials = 2131165358;
-			
-			// aapt resource value: 0x7f0700b2
-			public const int message_user_text_text_view_text = 2131165362;
-			
-			// aapt resource value: 0x7f0700b3
-			public const int message_user_text_text_view_timestamp = 2131165363;
+			// aapt resource value: 0x7f0700a9
+			public const int message_user_media_text_view_initials = 2131165353;
 			
 			// aapt resource value: 0x7f0700ad
-			public const int message_user_text_view_group_avatar = 2131165357;
+			public const int message_user_media_text_view_timestamp = 2131165357;
+			
+			// aapt resource value: 0x7f0700a8
+			public const int message_user_media_view_group_avatar = 2131165352;
+			
+			// aapt resource value: 0x7f0700ab
+			public const int message_user_media_view_group_bubble = 2131165355;
+			
+			// aapt resource value: 0x7f0700b0
+			public const int message_user_text_image_view_avatar = 2131165360;
 			
 			// aapt resource value: 0x7f0700b1
-			public const int message_user_text_view_group_bubble = 2131165361;
+			public const int message_user_text_image_view_carrot = 2131165361;
+			
+			// aapt resource value: 0x7f0700af
+			public const int message_user_text_text_view_initials = 2131165359;
+			
+			// aapt resource value: 0x7f0700b3
+			public const int message_user_text_text_view_text = 2131165363;
+			
+			// aapt resource value: 0x7f0700b4
+			public const int message_user_text_text_view_timestamp = 2131165364;
+			
+			// aapt resource value: 0x7f0700ae
+			public const int message_user_text_view_group_avatar = 2131165358;
+			
+			// aapt resource value: 0x7f0700b2
+			public const int message_user_text_view_group_bubble = 2131165362;
 			
 			// aapt resource value: 0x7f07002a
 			public const int middle = 2131165226;
@@ -5198,14 +5207,17 @@ namespace Sample
 			// aapt resource value: 0x7f07001f
 			public const int showTitle = 2131165215;
 			
-			// aapt resource value: 0x7f070095
-			public const int slyce_messaging_edit_text_entry_field = 2131165333;
-			
 			// aapt resource value: 0x7f070096
-			public const int slyce_messaging_image_view_send = 2131165334;
+			public const int slyce_messaging_edit_text_entry_field = 2131165334;
+			
+			// aapt resource value: 0x7f070097
+			public const int slyce_messaging_image_view_send = 2131165335;
+			
+			// aapt resource value: 0x7f070095
+			public const int slyce_messaging_image_view_snap = 2131165333;
 			
 			// aapt resource value: 0x7f070094
-			public const int slyce_messaging_image_view_snap = 2131165332;
+			public const int slyce_messaging_leftInputToolbar = 2131165332;
 			
 			// aapt resource value: 0x7f070092
 			public const int slyce_messaging_recycler_view = 2131165330;
@@ -5243,8 +5255,8 @@ namespace Sample
 			// aapt resource value: 0x7f07003e
 			public const int start = 2131165246;
 			
-			// aapt resource value: 0x7f0700b8
-			public const int status_bar_latest_event_content = 2131165368;
+			// aapt resource value: 0x7f0700b9
+			public const int status_bar_latest_event_content = 2131165369;
 			
 			// aapt resource value: 0x7f070069
 			public const int submenuarrow = 2131165289;
@@ -5255,11 +5267,11 @@ namespace Sample
 			// aapt resource value: 0x7f070019
 			public const int tabMode = 2131165209;
 			
-			// aapt resource value: 0x7f0700c0
-			public const int text = 2131165376;
+			// aapt resource value: 0x7f0700c1
+			public const int text = 2131165377;
 			
-			// aapt resource value: 0x7f0700be
-			public const int text2 = 2131165374;
+			// aapt resource value: 0x7f0700bf
+			public const int text2 = 2131165375;
 			
 			// aapt resource value: 0x7f070061
 			public const int textSpacerNoButtons = 2131165281;
@@ -5267,8 +5279,8 @@ namespace Sample
 			// aapt resource value: 0x7f070090
 			public const int text_input_password_toggle = 2131165328;
 			
-			// aapt resource value: 0x7f0700bc
-			public const int time = 2131165372;
+			// aapt resource value: 0x7f0700bd
+			public const int time = 2131165373;
 			
 			// aapt resource value: 0x7f070057
 			public const int title = 2131165271;
@@ -5486,64 +5498,67 @@ namespace Sample
 			public const int fragment_slyce_messaging = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int item_message_external_media = 2130968620;
+			public const int input_toolbar_takephoto = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int item_message_external_text = 2130968621;
+			public const int item_message_external_media = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int item_message_general_options = 2130968622;
+			public const int item_message_external_text = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int item_message_general_text = 2130968623;
+			public const int item_message_general_options = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int item_message_user_media = 2130968624;
+			public const int item_message_general_text = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int item_message_user_text = 2130968625;
+			public const int item_message_user_media = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int item_spinner = 2130968626;
+			public const int item_message_user_text = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int Main = 2130968627;
+			public const int item_spinner = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_media_action = 2130968628;
+			public const int Main = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_media_cancel_action = 2130968629;
+			public const int notification_media_action = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_big_media = 2130968630;
+			public const int notification_media_cancel_action = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_big_media_narrow = 2130968631;
+			public const int notification_template_big_media = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_lines = 2130968632;
+			public const int notification_template_big_media_narrow = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int notification_template_media = 2130968633;
+			public const int notification_template_lines = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int notification_template_part_chronometer = 2130968634;
+			public const int notification_template_media = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int notification_template_part_time = 2130968635;
+			public const int notification_template_part_chronometer = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int select_dialog_item_material = 2130968636;
+			public const int notification_template_part_time = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int select_dialog_multichoice_material = 2130968637;
+			public const int select_dialog_item_material = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int select_dialog_singlechoice_material = 2130968638;
+			public const int select_dialog_multichoice_material = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int support_simple_spinner_dropdown_item = 2130968639;
+			public const int select_dialog_singlechoice_material = 2130968639;
+			
+			// aapt resource value: 0x7f040040
+			public const int support_simple_spinner_dropdown_item = 2130968640;
 			
 			static Layout()
 			{
@@ -5599,11 +5614,11 @@ namespace Sample
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f080034
-			public const int ApplicationName = 2131230772;
+			// aapt resource value: 0x7f08003b
+			public const int ApplicationName = 2131230779;
 			
-			// aapt resource value: 0x7f080033
-			public const int Hello = 2131230771;
+			// aapt resource value: 0x7f08003a
+			public const int Hello = 2131230778;
 			
 			// aapt resource value: 0x7f080000
 			public const int abc_action_bar_home_description = 2131230720;
@@ -5710,47 +5725,68 @@ namespace Sample
 			// aapt resource value: 0x7f080023
 			public const int character_counter_pattern = 2131230755;
 			
-			// aapt resource value: 0x7f080030
-			public const int cwac_cam2_ok = 2131230768;
+			// aapt resource value: 0x7f080037
+			public const int cwac_cam2_ok = 2131230775;
 			
-			// aapt resource value: 0x7f080031
-			public const int cwac_cam2_retry = 2131230769;
-			
-			// aapt resource value: 0x7f080026
-			public const int define_roundedimageview = 2131230758;
-			
-			// aapt resource value: 0x7f080032
-			public const int library_name = 2131230770;
-			
-			// aapt resource value: 0x7f080027
-			public const int library_roundedimageview_author = 2131230759;
-			
-			// aapt resource value: 0x7f080028
-			public const int library_roundedimageview_authorWebsite = 2131230760;
-			
-			// aapt resource value: 0x7f080029
-			public const int library_roundedimageview_isOpenSource = 2131230761;
-			
-			// aapt resource value: 0x7f08002a
-			public const int library_roundedimageview_libraryDescription = 2131230762;
-			
-			// aapt resource value: 0x7f08002b
-			public const int library_roundedimageview_libraryName = 2131230763;
-			
-			// aapt resource value: 0x7f08002c
-			public const int library_roundedimageview_libraryVersion = 2131230764;
-			
-			// aapt resource value: 0x7f08002d
-			public const int library_roundedimageview_libraryWebsite = 2131230765;
-			
-			// aapt resource value: 0x7f08002e
-			public const int library_roundedimageview_licenseId = 2131230766;
-			
-			// aapt resource value: 0x7f08002f
-			public const int library_roundedimageview_repositoryLink = 2131230767;
+			// aapt resource value: 0x7f080038
+			public const int cwac_cam2_retry = 2131230776;
 			
 			// aapt resource value: 0x7f080025
-			public const int scout_entry_hint = 2131230757;
+			public const int date_a_minute_ago = 2131230757;
+			
+			// aapt resource value: 0x7f080026
+			public const int date_minutes_ago = 2131230758;
+			
+			// aapt resource value: 0x7f080027
+			public const int date_now = 2131230759;
+			
+			// aapt resource value: 0x7f080028
+			public const int date_yesterday = 2131230760;
+			
+			// aapt resource value: 0x7f08002d
+			public const int define_roundedimageview = 2131230765;
+			
+			// aapt resource value: 0x7f080039
+			public const int library_name = 2131230777;
+			
+			// aapt resource value: 0x7f08002e
+			public const int library_roundedimageview_author = 2131230766;
+			
+			// aapt resource value: 0x7f08002f
+			public const int library_roundedimageview_authorWebsite = 2131230767;
+			
+			// aapt resource value: 0x7f080030
+			public const int library_roundedimageview_isOpenSource = 2131230768;
+			
+			// aapt resource value: 0x7f080031
+			public const int library_roundedimageview_libraryDescription = 2131230769;
+			
+			// aapt resource value: 0x7f080032
+			public const int library_roundedimageview_libraryName = 2131230770;
+			
+			// aapt resource value: 0x7f080033
+			public const int library_roundedimageview_libraryVersion = 2131230771;
+			
+			// aapt resource value: 0x7f080034
+			public const int library_roundedimageview_libraryWebsite = 2131230772;
+			
+			// aapt resource value: 0x7f080035
+			public const int library_roundedimageview_licenseId = 2131230773;
+			
+			// aapt resource value: 0x7f080036
+			public const int library_roundedimageview_repositoryLink = 2131230774;
+			
+			// aapt resource value: 0x7f080029
+			public const int message_new = 2131230761;
+			
+			// aapt resource value: 0x7f08002a
+			public const int message_text_copied = 2131230762;
+			
+			// aapt resource value: 0x7f08002b
+			public const int message_view = 2131230763;
+			
+			// aapt resource value: 0x7f08002c
+			public const int scout_entry_hint = 2131230764;
 			
 			// aapt resource value: 0x7f080013
 			public const int search_menu_title = 2131230739;
