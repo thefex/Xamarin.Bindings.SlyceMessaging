@@ -23,6 +23,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSample", "TestProject\S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSample.Core", "TestProject\TestSample.Core\TestSample.Core.csproj", "{AC72AE1F-B5E3-4CBC-B868-84124575D5F5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuSpecs", "NuSpecs", "{28E1F9D8-74BC-414E-83C1-49935EF7C857}"
+	ProjectSection(SolutionItems) = preProject
+		nuspec\MvvmCross.Bindings.SlyceMessaging.nuspec = nuspec\MvvmCross.Bindings.SlyceMessaging.nuspec
+		nuspec\Xamarin.Bindings.Cam2.nuspec = nuspec\Xamarin.Bindings.Cam2.nuspec
+		nuspec\Xamarin.Bindings.RoundedImageView.nuspec = nuspec\Xamarin.Bindings.RoundedImageView.nuspec
+		nuspec\Xamarin.Bindings.SlyceMessaging.nuspec = nuspec\Xamarin.Bindings.SlyceMessaging.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

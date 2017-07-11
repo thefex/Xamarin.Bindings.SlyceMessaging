@@ -22,7 +22,7 @@
     </dependencies>
 	</metadata>
 	<files>		
-		<file src="..\LibraryBindings\Binding_Cam2_072\bin\Release\Xamarin.Bindings.Cam2.dll" target="lib\MonoAndroid" />
+		<file src="../LibraryBindings/Binding_Cam2_072/bin/Release/Xamarin.Bindings.Cam2.dll" target="lib\MonoAndroid" />
 	</files>
 </package>
 

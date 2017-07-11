@@ -22,7 +22,7 @@
     </dependencies>
 	</metadata>
 	<files>		
-		<file src="..\LibraryBindings\Binding_RoundedImageView\bin\Release\Xamarin.Bindings.RoundedImageView.dll" target="lib\MonoAndroid" />
+        <file src="../LibraryBindings/Binding_RoundedImageView/bin/Release/Xamarin.Bindings.RoundedImageView.dll" target="lib\MonoAndroid" />
 	</files>
 </package>
 
